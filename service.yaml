@@ -2,7 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: my-service
-  namespace: hns-argo-test-pg
+  namespace: test
 spec:
   ports:
     - protocol: TCP
