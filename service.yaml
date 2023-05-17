@@ -5,7 +5,7 @@ metadata:
     argocd.argoproj.io/hook: PostSync
     argocd.argoproj.io/sync-wave: "1"
   name: my-service
-  namespace: hns-argo-test-pg
+  namespace: production
 spec:
   ports:
     - protocol: TCP
