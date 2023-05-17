@@ -6,7 +6,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "1"
     argocd.argoproj.io/hook-delete-policy: HookFailed    
   name: my-service
-  namespace: production
+  namespace: hns-argo-test-pg
 spec:
   ports:
     - protocol: TCP
